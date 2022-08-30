@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 100px;
+    background-color: #a5b4fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 48px;
+}
