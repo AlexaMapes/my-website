@@ -32,19 +32,36 @@ h4 {
     color: #4f46e5;
 }
 
-button {
+.social {
     background-color: #312e81;
     border: none;
     padding: 10px;
     border-radius: 90px;
 }
 
-button:hover {
+.social:hover {
     background-color: #23215b;
 }
 
-button:focus {
+.social:focus {
     background-color: #1c1a49;
+}
+
+.project {
+    background-color: #818cf8;
+    border: none;
+    border-radius: 25px;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+.project:hover {
+    background-color: #6770C6;
+}
+
+.project:focus {
+    background-color: #4D5494;
 }
 
 .header {
