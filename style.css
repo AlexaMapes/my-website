@@ -26,10 +26,15 @@ body {
 h3 {
     color: #312e81;
     font-weight: bold;
+    font-size: 25px;
 }
 
 h4 {
     color: #4f46e5;
+}
+
+.summary {
+    font-size: 20px;
 }
 
 .social {
@@ -51,9 +56,10 @@ h4 {
     background-color: #818cf8;
     border: none;
     border-radius: 25px;
-    padding: 8px;
+    padding: 20px;
     font-weight: bold;
     color: white;
+    font-size: 15px;
 }
 
 .project:hover {
@@ -100,6 +106,7 @@ h4 {
 .language-list, .software-list {
     display: flex;
     gap: 40px;
+    font-size: 20px;
 }
 
 .schools {
@@ -118,4 +125,8 @@ h4 {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+.education {
+    font-size: 20px;
 }
